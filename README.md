@@ -87,11 +87,9 @@ README.md    Project documentation
 
 ## Visual preview
 
-Add a gameplay screenshot or short GIF here before submitting the Hacktoberfest project:
+The game keeps the interface minimal so the passage and its small betrayals stay in focus.
 
-```text
-docs/words-per-misery.gif
-```
+![Words Per Misery gameplay](./docs/words-per-misery-gameplay.png)
 
 ## How I used GitHub Copilot
 
