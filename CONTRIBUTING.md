@@ -9,8 +9,8 @@ Please search existing issues and pull requests before opening a new one. Small,
 ## Local setup
 
 ```bash
-git clone https://github.com/TheLinuxGuy-ssh/WordOfMisery.git
-cd WordOfMisery
+git clone https://github.com/TheLinuxGuy-ssh/WordsOfMisery.git
+cd WordsOfMisery
 open index.html
 ```
 

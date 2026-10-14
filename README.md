@@ -7,13 +7,13 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-22c55e?style=flat-square&logo=javascript&logoColor=0a0a0a)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-22c55e?style=flat-square&logo=github&logoColor=0a0a0a)](https://pages.github.com/)
 [![MIT](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](LICENSE)
-[![Deploy to GitHub Pages](https://github.com/TheLinuxGuy-ssh/WordOfMisery/actions/workflows/pages.yml/badge.svg)](https://github.com/TheLinuxGuy-ssh/WordOfMisery/actions/workflows/pages.yml)
+[![Deploy to GitHub Pages](https://github.com/TheLinuxGuy-ssh/WordsOfMisery/actions/workflows/pages.yml/badge.svg)](https://github.com/TheLinuxGuy-ssh/WordsOfMisery/actions/workflows/pages.yml)
 
 Words Per Misery is a public, community-friendly project. Contributions, bug reports, accessibility feedback, and new ideas are welcome.
 
 ## Play
 
-**[Open Words Per Misery on GitHub Pages](https://thelinuxguy-ssh.github.io/WordOfMisery/)**
+**[Open Words Per Misery on GitHub Pages](https://thelinuxguy-ssh.github.io/WordsOfMisery/)**
 
 Words Per Misery starts like an ordinary typing test, then steadily makes the text less trustworthy. Type the passage exactly as shown, survive five rounds, and see how much suffering your performance earned.
 
@@ -72,8 +72,8 @@ Rank evaluation is performed in this order:
 There is nothing to install:
 
 ```bash
-git clone https://github.com/TheLinuxGuy-ssh/WordOfMisery.git
-cd WordOfMisery
+git clone https://github.com/TheLinuxGuy-ssh/WordsOfMisery.git
+cd WordsOfMisery
 open index.html
 ```
 
