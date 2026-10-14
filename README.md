@@ -8,6 +8,8 @@
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-22c55e?style=flat-square&logo=github&logoColor=0a0a0a)](https://pages.github.com/)
 [![MIT](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](LICENSE)
 
+Words Per Misery is a public, community-friendly project. Contributions, bug reports, accessibility feedback, and new ideas are welcome.
+
 ## Play
 
 **[Open Words Per Misery on GitHub Pages](https://thelinuxguy-ssh.github.io/WordOfMisery/)**
@@ -107,3 +109,7 @@ docs/copilot-prompt-2.png
 ## License
 
 MIT
+
+## Community and security
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. Community participation follows the [Code of Conduct](CODE_OF_CONDUCT.md). For private security reports, see [SECURITY.md](SECURITY.md).

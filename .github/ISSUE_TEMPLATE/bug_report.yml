@@ -1,0 +1,45 @@
+name: Bug report
+description: Report a reproducible problem in the game
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make Words Per Misery less broken.
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include the round, keys pressed, and any relevant game settings.
+      placeholder: |
+        1. Open the game
+        2. Start Round 3
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: Chrome 130
+    validations:
+      required: true
+  - type: input
+    id: viewport
+    attributes:
+      label: Screen size
+      placeholder: 1280 x 900
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshot or console output
+      description: Drag in a screenshot or paste relevant console errors.
