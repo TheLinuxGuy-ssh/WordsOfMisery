@@ -4,9 +4,7 @@
 
 ## See it in action
 
-<video src="./WordsOfMisery-gameplay.mp4" poster="./docs/words-per-misery-gameplay.png" controls muted loop playsinline width="100%"></video>
-
-[Watch the gameplay video directly](./WordsOfMisery-gameplay.mp4)
+![Words Of Misery gameplay](./WordsOfMisery-gameplay.gif)
 
 [![HTML](https://img.shields.io/badge/HTML-22c55e?style=flat-square&logo=html5&logoColor=0a0a0a)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS](https://img.shields.io/badge/CSS-22c55e?style=flat-square&logo=css3&logoColor=0a0a0a)](https://developer.mozilla.org/en-US/docs/Web/CSS)
