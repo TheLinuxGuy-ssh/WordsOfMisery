@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Words Per Misery is a typing test that wants you to fail.">
+  <title>Words Per Misery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="top-bar" aria-label="Game status">
+      <div class="brand">WORDS PER <span>MISERY</span></div>
+      <div class="status-cluster">
+        <span id="round-label">Round 0 of 5</span>
+        <div class="evil-meter" aria-label="Evil meter"><span id="evil-fill"></span></div>
+      </div>
+    </header>
+
+    <section id="start-screen" class="screen start-screen">
+      <p class="eyebrow">A typing test that wants you to fail.</p>
+      <h1>Words Per <span>Misery</span></h1>
+      <p class="intro">A perfectly normal typing test, until it decides that normal was overrated.</p>
+      <button id="start-button" class="primary-button" type="button">Start</button>
+      <label class="toggle-row">
+        <input id="mercy-toggle" type="checkbox">
+        <span class="toggle-control" aria-hidden="true"></span>
+        <span>Mercy Mode (for cowards)</span>
+      </label>
+      <p id="best-score" class="best-score"></p>
+      <p class="keyboard-note">A physical keyboard is required.</p>
+    </section>
+
+    <section id="game-screen" class="screen game-screen is-hidden" aria-live="polite">
+      <div id="countdown" class="countdown is-hidden" aria-live="assertive"></div>
+      <div id="passage" class="passage" tabindex="-1" aria-label="Typing passage"></div>
+      <p id="narrator" class="narrator">This will be fine.</p>
+    </section>
+
+    <section id="results-screen" class="screen results-screen is-hidden">
+      <p class="eyebrow">You made it out</p>
+      <h2 id="rank-title">Survived, Barely</h2>
+      <div class="misery-card">
+        <span class="stat-label">Misery Index</span>
+        <strong id="misery-index">0</strong>
+        <p id="misery-caption">You barely felt it.</p>
+      </div>
+      <div class="stats-grid">
+        <div><span>WPM</span><strong id="result-wpm">0</strong></div>
+        <div><span>Accuracy</span><strong id="result-accuracy">0%</strong></div>
+        <div><span>Errors</span><strong id="result-errors">0</strong></div>
+        <div><span>Total time</span><strong id="result-time">0s</strong></div>
+        <div><span>Popups dismissed</span><strong id="result-popups">0</strong></div>
+        <div><span>Rounds survived</span><strong id="result-rounds">0 of 5</strong></div>
+      </div>
+      <p id="copy-status" class="copy-status" role="status"></p>
+      <div class="results-actions">
+        <button id="copy-button" class="secondary-button" type="button">Copy result</button>
+        <button id="retry-button" class="primary-button" type="button">Try again</button>
+      </div>
+    </section>
+  </main>
+
+  <div id="popup-layer" class="popup-layer is-hidden" aria-live="assertive"></div>
+  <script src="script.js"></script>
+</body>
+</html>
