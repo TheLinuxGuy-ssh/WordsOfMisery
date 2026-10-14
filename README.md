@@ -7,6 +7,7 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-22c55e?style=flat-square&logo=javascript&logoColor=0a0a0a)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-22c55e?style=flat-square&logo=github&logoColor=0a0a0a)](https://pages.github.com/)
 [![MIT](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](LICENSE)
+[![Deploy to GitHub Pages](https://github.com/TheLinuxGuy-ssh/WordOfMisery/actions/workflows/pages.yml/badge.svg)](https://github.com/TheLinuxGuy-ssh/WordOfMisery/actions/workflows/pages.yml)
 
 Words Per Misery is a public, community-friendly project. Contributions, bug reports, accessibility feedback, and new ideas are welcome.
 
